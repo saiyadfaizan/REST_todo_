@@ -10,18 +10,18 @@ We have used,
 
 # Project Structure
 
-├── Task
+├── task
 │   ├── admin.py
 │   ├── apps.py
 │   ├── __init__.py
 │   ├── migrations: database migrations
-│   ├── models.py: database models for Task app
+│   ├── models.py: database models for task app
 │   ├── serializers.py: serializers for the models
 │   ├── tests.py: test cases for view
-│   ├── urls.py: url endpoints of Task app
+│   ├── urls.py: url endpoints of task app
 │   └── views.py: These views are called by API endpoints
 ├── manage.py
-└── webscraper
+└── todo
     ├── __init__.py
     ├── settings.py: settings file for the project
     ├── urls.py: base urls for apps of the project
