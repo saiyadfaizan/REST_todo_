@@ -7,25 +7,6 @@ We have used,
 1. Python 3
 2. Django REST Framework
 3. sqlite3 Database
-
-# Project Structure
-
-├── task
-│   ├── admin.py
-│   ├── apps.py
-│   ├── __init__.py
-│   ├── migrations: database migrations
-│   ├── models.py: database models for task app
-│   ├── serializers.py: serializers for the models
-│   ├── tests.py: test cases for view
-│   ├── urls.py: url endpoints of task app
-│   └── views.py: These views are called by API endpoints
-├── manage.py
-└── todo
-    ├── __init__.py
-    ├── settings.py: settings file for the project
-    ├── urls.py: base urls for apps of the project
-    └── wsgi.py
     
 # Running Locally
 First, clone the repository to your local machine:
