@@ -19,7 +19,7 @@ cd todo
 python manage.py createsuperuser 
 
 Note: It will prompt to enter username, email and password one by one. Please remember the username and password,
-it will be used to login admin area or to hit an API to scrap/refresh the linkedin profiles.
+it will be used to login admin area or to hit an API.
 
 # Steps to run the project
 
